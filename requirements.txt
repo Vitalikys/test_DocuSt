@@ -1,0 +1,5 @@
+redis~=4.4.1
+Flask
+
+# For .environment variables
+python-dotenv>=0.19.2
