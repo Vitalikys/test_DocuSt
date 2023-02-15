@@ -2,6 +2,10 @@
 Flask application for API 
 using Redis DB
 
+start app:
+```shell 
+$ python3 wsgi.py
+```
 
 Using the classic memory profiler 
 
