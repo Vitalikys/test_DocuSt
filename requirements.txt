@@ -1,5 +1,10 @@
 redis~=4.4.1
 Flask
 
+# for memory usage
+# memory_profiler
+psutil
+requests
+
 # For .environment variables
 python-dotenv>=0.19.2
