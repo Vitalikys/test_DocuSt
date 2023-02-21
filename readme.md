@@ -25,6 +25,7 @@ postman </a>
 
 ## Script for monitoring memory usage
 script 1: memory_alarm.py 
+
 how to run: 
 
 ```shell
@@ -36,8 +37,9 @@ $ python3 memory_alarm.py --help
 ```
 
 
-Using the classic memory profiler 
+```shell
+curl --location --request POST 'http://78.27.202.55:8080/flask/key_08' --header 'Content-Type: application/json' --data-raw '{"value": "value 08-"}'
+```
 
-Memory profiler from PyPI is a python library module used for monitoring process memory. It uses psutil code to create a decorator and then uses it to get the memory distribution. With this pypi module by importing one can save lines and directly call the decorator. To install use the following-
-
+Using the classic memory profiler
 pip install -U memory_profiler
