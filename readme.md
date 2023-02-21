@@ -24,7 +24,7 @@ postman </a>
 
 
 ## Script for monitoring memory usage
-script 1: memory_alarm.py 
+* script 1: memory_alarm.py 
 
 how to run: 
 
@@ -43,3 +43,5 @@ curl --location --request POST 'http://78.27.202.55:8080/flask/key_08' --header 
 
 Using the classic memory profiler
 pip install -U memory_profiler
+
+* Bash script version 1, 2 - details in readme_RAM.md
