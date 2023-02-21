@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Version using     command  FREE
+# Depends of Linux language 'Memory'/'Память'
 #in_use_ram=`free | grep Mem | awk '{print $3/$2 * 100.0}'`
 in_use_ram=`free | grep Пам | awk '{print $3/$2 * 100.0}'`
 echo "memory in use: $in_use_ram %"
