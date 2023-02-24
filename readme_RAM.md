@@ -1,5 +1,16 @@
-grep(1) — Linux manual page
-https://man7.org/linux/man-pages/man1/grep.1.html
+task to check memory usage and send alarm to API is emplemented in two versions:
+
+### Python script. memory_alarm.py
+how to run: 
+
+```shell
+$ python3 memory_alarm.py --url 'http://78.27.202.55:8080/flask' --time 60 --message 'short message'
+```
+
+```shell
+$ python3 memory_alarm.py --help 
+```
+
 
 ### Bash Script. Version using   /proc/meminfo
 save all data about RAM to file
@@ -23,4 +34,14 @@ chmod +x memory_alarm.sh
 
 
 ### Bash Script. Version using   $ Free
+takes integer argument(60) % to set limit ram usage 
 
+depend which Linux language is installed:
+* english - Mem  (from Memory)
+* ukrainian - Пам (from Память)
+```shell
+./menory_free.sh 60
+```
+
+grep(1) — Linux manual page
+https://man7.org/linux/man-pages/man1/grep.1.html
