@@ -1,6 +1,6 @@
 
 ## Flask application for API 
-using Redis DB
+using Redis DB, Flask. (could add implementation with FastAPI)
 
 б) Приложение на python, с использованием Flask, которое слушает на порту 8080 и принимает только методы GET, POST, PUT.
 
@@ -14,10 +14,10 @@ $ python3 wsgi.py
 ```
 deployed on: http://78.27.202.55:8080/
 
-test app with Postman: 
+
 
 <a href="https://lively-escape-146551.postman.co/workspace/flask_Docu_Stech~1327aacd-5646-4d79-8df7-087fa63c2403/collection/23239505-05b3298c-edd2-46c5-a4e1-21c72a4a6cf0?ctx=documentation"> 
-postman </a>
+test application with Postman </a>
 
 
 ![img.png](img.png)
