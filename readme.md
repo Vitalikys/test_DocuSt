@@ -18,14 +18,17 @@ sudo apt-get update
 sudo apt-get install redis
 redis-cli ping  # check connection ->PONG
 ```
-Clone Project and install dependencies: 
+Clone Project and install dependencies:
 ```shell
 git clone https://github.com/Vitalikys/test_DocuSt.git
-python -m venv venv
-venv\bin\activate
+cd test_DocuSt/
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python3 wsgi.py
 ```
+
+visit -  http://127.0.0.1:8080
 
 ### - Case how to start in Docker
 ```shell
