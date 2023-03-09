@@ -54,7 +54,7 @@ curl --location --request GET 'http://78.27.236.114:8080//flask//key_08-bla-'
 
 * Create POST Key:Value  (key_09: value_09)
 ```shell
-curl -X POST  - 'http://78.27.236.114:8080/flask/key_08' \
+curl -X POST 'http://78.27.236.114:8080/flask/key_08' \
 -H 'Content-Type: application/json' --data '{"value": "value 08"}'
 ```
 
@@ -65,6 +65,9 @@ curl -X PUT 'http://78.27.236.114:8080/flask/key_09' \
 ```
 
 ## Test Project
+```shell
+python3 tests.py
+```
 Test by using Unittest - IN Progress....
 
 Best way to test application:
