@@ -4,8 +4,9 @@ from werkzeug.exceptions import HTTPException
 
 app = Flask(__name__)
 
-# redis_client = StrictRedis(host='127.0.0.1', port=63791, db=3)  # for local
-redis_client = StrictRedis(host='redis_flask', port=6379, db=0)  # for Docker
+# we could use dot-env file
+redis_client = StrictRedis(host='127.0.0.1', port=6379, db=3)  # for local
+# redis_client = StrictRedis(host='redis_flask', port=6379, db=0)  # for Docker
 
 
 def check_if_exist(key):
