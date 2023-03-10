@@ -6,7 +6,13 @@
  
 - Вновь созданные объекты должны создаваться, изменяться и читаться из NoSQL DB.
 ### Technology stack
-- Python 3.10,  Redis DB, Flask.
+[![version](https://img.shields.io/badge/python-3.10-green)](https://semver.org)
+[![version](https://img.shields.io/badge/Redis-4.4.2-green)](https://semver.org)
+[![version](https://img.shields.io/badge/Flask-2.2.3-green)](https://semver.org)
+[![version](https://img.shields.io/badge/dotenv-1.0-green)](https://semver.org)
+[![version](https://img.shields.io/badge/requests-2.28.2-green)](https://semver.org)
+[![version](https://img.shields.io/badge/psutil-5.9.4-red)](https://semver.org)
+[![version](https://img.shields.io/badge/unittest-latest-green)](https://semver.org)
 
 ## Install and Run the Project
 [Project deployed here](http://78.27.236.114:8080/flask)
